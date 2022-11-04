@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ch">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>A9210256作業6</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <script>
+                document.write("<table class='table table-success table-striped table-bordered'>");
+                document.write("<tr>", "<th colspan='9'>", "A9210256陳力菁 九九乘法表", "</th>", "</tr>");
+                for (i = 1; i < 10; i++) {
+                    document.write("<tr>");
+                    for (j = 1; j < 10; j++) {
+                        document.write("<td> ", j, " * ", i, " = ", i * j, "</td>");
+                    }
+                    document.write("</tr>");
+                }
+                document.write("</table>");
+            </script>
+        </div>
+    </div>
+</body>
+</html>
